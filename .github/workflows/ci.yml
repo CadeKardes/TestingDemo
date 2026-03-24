@@ -20,5 +20,5 @@ jobs:
     - name: Install dependencies
       run: pip install pytest flake8
 
-    -name: Test
+    - name: Test
       run: pytest tests/ -v
