@@ -28,6 +28,7 @@ def reduce_stock(item_id: str, quantity: int) -> bool:
     return _stock[item_id]
 
 
+
 def reset_stock():
     """Reset stock to default values. Call this in test setUp/teardown."""
     _stock.clear()
